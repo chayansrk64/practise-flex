@@ -1,21 +1,25 @@
  
 .container{
     min-height: 800px;
-    justify-content: flex-start;
+    justify-content: flex-end;
     border: 8px solid black;
     display: flex;
     gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content:center;
+    
+     
 
+}
+#box-1{
+    margin-right: auto;
 }
 
 .box{
+    
+    min-width: 150px;
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-shrink:1;
     height: 200px;
     width: 200px;
     background-color: #526de4;
